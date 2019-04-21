@@ -2,6 +2,18 @@
   "name": "ismounted",
   "version": "0.0.1",
   "description": "React hook to check if the component is still mounted",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmlweb/isMounted.git"
+  },
+  "author": "José Manuel Lucas <josemanuel@jmlweb.es> (https://jmlweb.es)",
+  "keywords": [
+    "react",
+    "hook",
+    "hooks",
+    "state",
+    "ismounted"
+  ],
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
