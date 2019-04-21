@@ -1,0 +1,13 @@
+{
+  "name": "ismounted",
+  "version": "0.0.1",
+  "description": "React hook to check if the component is still mounted",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
