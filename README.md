@@ -25,7 +25,7 @@ const MySecureComponent = () => {
 
   useEffect(() => {
     myService.getResults().then(val => {
-      if (isMounted.value) {
+      if (isMounted.current) {
         setResults(val);
       }
     });
