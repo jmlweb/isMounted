@@ -1,6 +1,6 @@
 {
   "name": "ismounted",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "React hook to check if the component is still mounted",
   "repository": {
     "type": "git",
