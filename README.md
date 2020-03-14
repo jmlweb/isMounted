@@ -36,3 +36,7 @@ const MySecureComponent = () => {
 
 export default MySecureComponent;
 ```
+
+### Installing
+
+`npm install ismounted` or `yarn add ismounted`
