@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react';
+const { useRef, useEffect } = require('react');
 
 const useIsMounted = () => {
   const isMounted = useRef(false);
@@ -9,4 +9,4 @@ const useIsMounted = () => {
   return isMounted;
 };
 
-export default useIsMounted;
+module.exports = useIsMounted;
