@@ -1,12 +1,20 @@
-import { useRef, useEffect } from 'react';
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = require("react");
 
 const useIsMounted = () => {
-  const isMounted = useRef(false);
-  useEffect(() => {
+  const isMounted = (0, _react.useRef)(false);
+  (0, _react.useEffect)(() => {
     isMounted.current = true;
     return () => isMounted.current = false;
   }, []);
   return isMounted;
 };
 
-export default useIsMounted;
+var _default = useIsMounted;
+exports.default = _default;
